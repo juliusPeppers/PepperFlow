@@ -5,7 +5,7 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "Main result"
+    - text: "Main Result"
       href: main-result.html
     - text: "About"
       href: about.html
