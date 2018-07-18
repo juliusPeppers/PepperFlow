@@ -5,13 +5,15 @@ navbar:
   left:
     - text: "Home"
       href: index.html
+    - text: "The main result"
+      href: main-result.html
     - text: "About"
       href: about.html
     - text: "License"
       href: license.html
   right:
     - icon: fa-github
-      href: https://github.com/jdblischak/workflowr
+      href: https://github.com/juliusPeppers/PepperFlow
 output:
   workflowr::wflow_html:
     toc: true
