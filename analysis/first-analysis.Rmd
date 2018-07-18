@@ -6,10 +6,9 @@ output: workflowr::wflow_html
 ---
 
 ## Introduction
-###Let us test the Pepper Flow
 
 ```{r}
 library(car)
-plot(cars$speed, cars$dist)
+plot(cars$speed,cars$dist)
 ```
 
