@@ -5,9 +5,25 @@ date: "2018-07-18"
 output: workflowr::wflow_html
 ---
 
-## Introduction
+## Import the data
 
 ```{r}
-
+library(car)
+library(stats)
 ```
 
+
+## Preliminary Data Analysis
+
+```{r}
+plot(cars$speed, cars$dist)
+```
+
+
+## Fit Regression Model
+Information about cars. Here we can explain what analysis we are doing in this section.
+We are fitting a model to predict distance using speed etc.
+```{r}
+model  = lm(cars$dist~cars$speed)
+summary(model)
+```
