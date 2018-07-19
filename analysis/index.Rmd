@@ -19,7 +19,7 @@ Determine distance travelled using the speed of the car etc.
 
 ### Script 1
 
-[link](main_results.html) to see analysis script 1.
+[link](main_result.html) to see analysis script 1.
 
 ### Script 2
 
