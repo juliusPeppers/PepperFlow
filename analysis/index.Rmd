@@ -8,12 +8,6 @@ output:
 
 ## Welcome to Project Car
 
-#### Project Owner: Peppers Bosses Boss
-
-#### Manager: Peppers Boss
-
-#### Analyst: Peppers
-
 ## Goals and Object
 
 #### Objective 1
@@ -29,4 +23,11 @@ Determine distance travelled using the speed of the car etc.
 
 ### Script 2
 
+##Team Members
+
+#### Project Owner: Peppers Bosses Boss
+
+#### Manager: Peppers Boss
+
+#### Analyst: Peppers
 
