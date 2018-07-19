@@ -1,6 +1,6 @@
 ---
-title: "main-result"
-author: "juliusPeppers"
+title: "Analysis Script1"
+author: "Peppers"
 date: "2018-07-18"
 output: workflowr::wflow_html
 ---
