@@ -22,6 +22,18 @@ plot(cars$speed, cars$dist)
 ```
 
 
+```{r}
+hist(cars$dist,
+main="Histogram for Dist", 
+     xlab="Dist", 
+     border="black", 
+     col="blue")
+
+```
+
+
+
+
 ## Fit Regression Model
 Information about cars. Here we can explain what analysis we are doing in this section.
 We are fitting a model to predict distance using speed etc.
