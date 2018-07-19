@@ -350,7 +350,7 @@ div.section {
 </li>
 <li>
 <details>
-<p><summary> <strong style="color:blue;">✔</strong> <strong>Repository version:</strong> 08413be </summary></p>
+<p><summary> <strong style="color:blue;">✔</strong> <strong>Repository version:</strong> 01738a4 </summary></p>
 Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility. The version displayed above was the version of the Git repository at the time these results were generated. <br><br> Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
 <pre><code>
 Ignored files:
@@ -386,6 +386,40 @@ Message
 </tr>
 </thead>
 <tbody>
+<tr>
+<td style="text-align:left;">
+Rmd
+</td>
+<td style="text-align:left;">
+01738a4
+</td>
+<td style="text-align:left;">
+juliusPeppers
+</td>
+<td style="text-align:left;">
+2018-07-19
+</td>
+<td style="text-align:left;">
+Added About and updated main analysis
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+html
+</td>
+<td style="text-align:left;">
+bed7cf8
+</td>
+<td style="text-align:left;">
+juliusPeppers
+</td>
+<td style="text-align:left;">
+2018-07-19
+</td>
+<td style="text-align:left;">
+Build site.
+</td>
+</tr>
 <tr>
 <td style="text-align:left;">
 html
@@ -476,6 +510,10 @@ wflow_publish(c(“analysis/main-result.Rmd”))
 </ul>
 </details>
 <hr />
+<div id="project-cars" class="section level2">
+<h2>Project Cars</h2>
+<p>Explain objects of this script.</p>
+</div>
 <div id="import-the-data" class="section level2">
 <h2>Import the data</h2>
 <pre class="r"><code>library(car)</code></pre>
@@ -484,6 +522,7 @@ wflow_publish(c(“analysis/main-result.Rmd”))
 </div>
 <div id="preliminary-data-analysis" class="section level2">
 <h2>Preliminary Data Analysis</h2>
+<p>Here we see are correlation between speed and distance.</p>
 <pre class="r"><code>plot(cars$speed, cars$dist)</code></pre>
 <p><img src="figure/main-result.Rmd/unnamed-chunk-2-1.png" width="672" style="display: block; margin: auto;" /></p>
 <details>
@@ -521,8 +560,12 @@ juliusPeppers
 <div id="fit-regression-model" class="section level2">
 <h2>Fit Regression Model</h2>
 <p>Information about cars. Here we can explain what analysis we are doing in this section. We are fitting a model to predict distance using speed etc.</p>
-<pre class="r"><code>model  = lm(cars$dist~cars$speed)
-summary(model)</code></pre>
+<pre class="r"><code>model  = lm(cars$dist~cars$speed)</code></pre>
+</div>
+<div id="model-diagnostics" class="section level2">
+<h2>Model Diagnostics</h2>
+<p>Explain the results of the model here.</p>
+<pre class="r"><code>summary(model)</code></pre>
 <pre><code>
 Call:
 lm(formula = cars$dist ~ cars$speed)
