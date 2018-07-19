@@ -6,6 +6,27 @@ output:
     toc: false
 ---
 
-Welcome to my research website.
+## Welcome to Project Car
 
-Click on this [link](first-analysis.html) to see my results.
+#### Project Owner: Peppers Bosses Boss
+
+#### Manager: Peppers Boss
+
+#### Analyst: Peppers
+
+## Goals and Object
+
+#### Objective 1
+
+Determine distance travelled using the speed of the car etc.
+
+
+## Contents
+
+### Script 1
+
+[link](main_results.html) to see analysis script 1.
+
+### Script 2
+
+
