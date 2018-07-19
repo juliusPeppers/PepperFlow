@@ -1,4 +1,2 @@
-<<<<<<< HEAD
 =======
 # PepperFlow  POC
->>>>>>> master
