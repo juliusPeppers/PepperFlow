@@ -9,7 +9,7 @@ Explain objects of this script.
 
 
 ## Import the data
-```{r  results="hide"}
+```{r  echo=FALSE}
 library(car)
 library(stats)
 ```
