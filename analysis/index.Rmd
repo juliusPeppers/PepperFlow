@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: "Project Car Home Page"
 site: workflowr::wflow_site
 output:
   workflowr::wflow_html:
@@ -23,9 +23,9 @@ Determine distance travelled using the speed of the car etc.
 
 ### Script 2
 
-##Team Members
+## Team Members
 
-#### Project Owner: Peppers Bosses Boss
+#### Project Owner: Peppers Boss's Boss
 
 #### Manager: Peppers Boss
 
