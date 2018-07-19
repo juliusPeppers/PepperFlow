@@ -4,17 +4,19 @@ author: "juliusPeppers"
 date: "2018-07-18"
 output: workflowr::wflow_html
 ---
+## Project Cars
+Explain objects of this script.
+
 
 ## Import the data
-
-```{r}
+```{r  results="hide"}
 library(car)
 library(stats)
 ```
 
 
 ## Preliminary Data Analysis
-
+Here we see are correlation between speed and distance. 
 ```{r}
 plot(cars$speed, cars$dist)
 ```
@@ -25,5 +27,11 @@ Information about cars. Here we can explain what analysis we are doing in this s
 We are fitting a model to predict distance using speed etc.
 ```{r}
 model  = lm(cars$dist~cars$speed)
+```
+
+
+## Model Diagnostics
+Explain the results of the model here.
+```{r}
 summary(model)
 ```

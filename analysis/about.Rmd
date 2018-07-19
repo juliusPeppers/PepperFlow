@@ -5,4 +5,17 @@ output:
     toc: false
 ---
 
-Describe your project.
+##Project Car
+
+
+Project Owner: Peppers Bosses Boss
+Manager: Peppers Boss
+Analyst: Peppers
+
+##Goals and Object
+
+Objective 1
+
+Determine distance travelled using the speed of the car etc.
+
+
