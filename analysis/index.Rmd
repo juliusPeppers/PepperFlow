@@ -25,9 +25,9 @@ Determine distance travelled using the speed of the car etc.
 
 ## Team Members
 
-#### Project Owner: Peppers Boss's Boss
++ Project Owner: Peppers Boss's Boss
 
-#### Manager: Peppers Boss
++ Manager: Peppers Boss
 
-#### Analyst: Peppers
++ Analyst: Peppers
 
