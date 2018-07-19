@@ -39,6 +39,7 @@ Information about cars. Here we can explain what analysis we are doing in this s
 We are fitting a model to predict distance using speed etc.
 ```{r}
 model  = lm(cars$dist~cars$speed)
+
 ```
 
 
@@ -47,3 +48,10 @@ Explain the results of the model here.
 ```{r}
 summary(model)
 ```
+
+We can see that the model fits the data
+```{r}
+plot(cars, col='blue')
+abline(model, col="red")
+```
+
