@@ -5,7 +5,7 @@ date: "2018-07-18"
 output: workflowr::wflow_html
 ---
 ## Project Cars
-Explain objects of this script.
+Analysis script for Project Car. Here we can explain exactly what this script is supposed to do. 
 
 
 ## Import the data
